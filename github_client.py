@@ -76,18 +76,3 @@ class Client:
                 raise Exception("an error as occured")
             return json.dumps({"status": "ok"}) 
 
-
-if __name__ == '__main__':
-    clt = Client("ec5747717ae812ad1e80898c8023be3e923d19ec")
-    #print(clt.list_repo())
-    #print(clt.list_stars())
-    #print(type(clt.list_repo()))
-    #print(clt.star_repo(48694948))
-    #clt.star_repo(100169041)
-    #clt.star_repo(109506532)
-    #print(clt.unfollow_user(12537418))
-    #print(clt.delete_repo(112575550))
-    print(clt.create_repo("github api python3"))
-    #print(clt.list_followers())
-    #clt.list_stars()
-    #clt.list_repo()
